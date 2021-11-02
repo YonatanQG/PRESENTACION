@@ -28,18 +28,19 @@
     <div class="conteiner">
         <form action=https://formspree.io/f/mwkadono method="post" id="box_form" class="formulario">
 
+            
             <label>Name <span  class="f-i">*</span></label> 
-            <input id="name" type="text"n name="NOMBRE" required>
+            <input id="name" type="text" name="NOMBRE" required>
 
             <label>Email<span class="f-i">*</span></label>  
-            <input type="email" name="_replyto">
+            <input id="email" type="email" name="_replyto" required>
 
             <label >company/organizacion<span class="f-i">*</span></label>
             <input id="company" type="text" name="ASUNTO" required>
 
-            <label>mensaje</label><textarea name="message"></textarea>
+            <label>mensaje</label><textarea id="textarea" name="message" maxlength="60" id="" cols="30" rows="10"></textarea>
 
-            <<button type="submit">Send</button>
+            <button  class="enviar" type="submit"   value="Enviar"></button>
         </form>
     </div>
 </section>

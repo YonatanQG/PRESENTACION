@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/proyects.css">
+    <link rel="stylesheet" href="css/fonts/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="header">
+        <p id="saludo">HOLA!</p>
+        <p class="sub">En breve contestare tu email</p>
+    </div>
+    <div class="barra">
+        <span class="icon-whatsapp"> </span>
+        <a href="https://www.instagram.com/yony_quiroga/?hl=es"><span class="icon-instagram"></span></a>
+        <a href="https://www.facebook.com/yoni.quiroga.395"><span class="icon-facebook2" ></span></a>
+    </div>
+</header>
+<section> 
+    <div class="conteiner">
+        <form action="/php/form.php" method="post" id="box_form" class="formulario">
+
+            <label>Name <span  class="f-i">*</span></label> 
+            <input id="name" type="text"n name="NOMBRE" required>
+
+            <label>Email<span class="f-i">*</span></label>  
+            <input id="email" type="email" name="CORREO" required>
+
+            <label >company/organizacion<span class="f-i">*</span></label>
+            <input id="company" type="text" name="ASUNTO" required>
+
+            <label>mensaje</label><textarea id="textarea" name="MENSAJE" maxlength="60" id="" cols="30" rows="10"></textarea>
+
+            <input  class="enviar" type="submit"   value="Enviar">
+        </form>
+    </div>
+</section>
+<section> 
+    <div class="datos">
+        <ul>
+            <li> <h2><span class="icon-map"></span>Direccion:</h2></li>
+            <li class="li"><span class="icon-location2"></span>km52,santa anita,buenos aires</li>
+        </ul>
+        <ul>
+            <li><h2><span class="icon-mail3"></span>Email/telefono:</h2></li>
+            <li class="li"><a href="#">Quirogayoni@hotmail.com</a></li>
+            <li class="li">1131996318</li>
+        </ul>
+    </div>
+</section>  
+
+   <script src="/javascript/proyects.js"></script>
+    
+</body>
+</html>
+
+

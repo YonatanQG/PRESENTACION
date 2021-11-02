@@ -1,0 +1,184 @@
+*{
+    font-family: 'Montserrat';
+    margin: 0%;
+    padding: 0%; 
+}
+    .cabezera{
+        grid-area: cabezera;
+    }
+    .presentacion{
+      
+        grid-area: presentacion;
+    }
+    .foto{
+        grid-area: foto;
+    }
+   
+
+    .boton{
+        grid-area: boton;
+    }
+
+@media (min-width : 300px){
+body{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "cabezera"
+    "foto"
+    "presentacion"
+    "boton"
+    ;
+    justify-items: center;
+    
+}
+.cabezera{
+    height:40px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #4eb8ff;
+    color: #ffff;
+    line-height: 40px;
+}
+
+
+.foto img{
+    width: 100%;
+}
+.presentacion{
+    color: #2c2c2c98;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+}
+.boton{
+    margin: auto;
+   
+   }
+   .boton :hover {
+    background-color: #6511ff;
+}
+button{
+    
+     border-style: none;
+     background-color: #012662;
+     border-radius: 5px;
+     height: 40px;
+        width: 200px;
+   }
+   button a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 300;
+   }
+}
+
+
+@media (min-width : 900px){
+    body{
+        grid-template-areas:
+        "cabezera      cabezera"
+        "presentacion    foto" 
+        "boton           boton";
+         align-items: center;
+         
+        
+    }
+    .cabezera{
+        line-height: center;
+        height:80px;
+        width: 100%;
+        font-size: 45px;
+        font-weight: 900;
+        background-color: #6511ff;
+        color: #ffff;
+        line-height: 80px;
+    }
+    .presentacion{
+        margin-left: 20px;
+        color: #2c2c2c98;
+        text-align: left;
+        font-size: 32px;
+        font-weight: 600;
+        width: 600px;
+    }
+    .boton{
+        position: relative;
+        bottom: 50%;
+        left: -30%;
+    
+    }
+ button{
+     
+     border-style: none;
+     background-color: #012662;
+     border-radius: 5px;
+     height: 40px;
+        width: 200px;
+    }
+    .boton :hover {
+        background-color: #6511ff;
+    }
+    button a{
+        text-decoration: none;
+        color: #ffff;
+        font-size: 20px;
+        font-weight: 300;
+       }
+}
+
+@media (min-width : 1000px){
+    body{
+        grid-template-areas:
+        "cabezera      cabezera"
+        "presentacion    foto" 
+        "boton           boton";
+         align-items: center;
+         
+        
+    }
+    .cabezera{
+        line-height: center;
+        height:80px;
+        width: 100%;
+        font-size: 45px;
+        font-weight: 900;
+        background-color: #6511ff;
+        color: #ffff;
+        line-height: 80px;
+    }
+    .presentacion{
+        color: #2c2c2c98;
+        
+        text-align: left;
+        font-size: 32px;
+        font-weight: 600;
+        width: 600px;
+    }
+    .boton{
+        position: relative;
+        bottom: 50%;
+        left: -30%;
+    
+    }
+ button{
+     
+     border-style: none;
+     background-color: #012662;
+     border-radius: 5px;
+     height: 40px;
+        width: 200px;
+    }
+    button a{
+        text-decoration: none;
+        color: #ffff;
+        font-size: 20px;
+        font-weight: 300;
+       }
+       .foto img{
+           height: 800px;
+       }
+}

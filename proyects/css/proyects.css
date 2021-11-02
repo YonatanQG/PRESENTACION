@@ -1,0 +1,373 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat';
+}
+body {
+    display: grid;
+}
+
+.f-i{
+    color: brown;
+}
+
+    body{
+        background-color: rgba(221, 221, 221, 0.294);
+    }
+header{
+    position: relative;
+}
+.barra{
+    position: absolute;
+    left: 90%;
+    bottom: 35px;
+  
+}
+.icon-facebook2{
+    
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+.icon-instagram{ 
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+.icon-whatsapp{ 
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+.icon-mail3{ 
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+
+}
+.icon-map{ 
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+    color: rgb(0, 0, 0);}
+.li{
+    margin-left: 30px;
+}
+.header{
+    display: grid;
+    height: 450px;
+    align-content: center;
+    background-color: #6511ff;
+}
+#saludo{
+    margin-left: 5%;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    font-size: 25px;
+    padding: 20px;
+    background-color:transparent ;
+     color: rgb(255, 255, 255);
+     position: relative;
+
+}
+.sub{
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 15px;
+    color: #ffffff;
+}
+.conteiner{
+    display: grid;
+    align-content: center;
+    position: relative;
+    width: 100%;
+    height: 550px;
+    font-size: 15px;
+    box-shadow: 5px 3px 8px rgba(0,0,0,0.5);
+}
+label{
+    display: block;
+    margin: 10px;
+}
+input{
+    height: 40px;
+    border-style: none;
+    background-color: hsla(0, 0%, 50%, 0.575);
+    color: #ffffff;
+    margin-left: 5%;
+    width: 90%;
+}
+textarea{
+    color: #ffffff;
+    background-color: hsla(0, 0%, 50%, 0.575);
+   border-style: none;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    max-width:90%;
+    min-width: 90%;
+    min-height: 200px;
+    max-height: 200px;
+
+}
+.formulario{
+    background-color: hsl(0, 0%, 100%);
+   
+}
+.enviar:hover {
+    background-color: #0000ff69;
+}
+.datos{
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: 5px 2px 10px hsla(229, 100%, 53%, 0.507);
+    
+}
+ul{ 
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    margin: 30px;
+}
+li{
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+@media (min-width:900px){
+    body{
+        background-color: rgba(221, 221, 221, 0.294);
+    }
+header{
+    position: relative;
+}
+.barra{
+    position: absolute;
+    left: 95%;
+    bottom: 10px;
+  
+}
+.icon-facebook2{
+    
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+.icon-instagram{ 
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+.icon-whatsapp{ 
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+.header{
+    display: grid;
+    height: 450px;
+    align-content: center;
+    background-color: #6511ff;
+}
+#saludo{
+    margin-left: 5%;
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    font-size: 45px;
+    padding: 20px;
+    background-color:transparent ;
+     color: rgb(255, 255, 255);
+     position: relative;
+
+}
+.sub{
+    margin-top: 20px;
+    margin-left: 5%;
+    font-size: 30px;
+    color: #ffffff;
+}
+.conteiner{
+    display: grid;
+    align-content: center;
+    position: relative;
+    margin-top: -60px;
+    margin-left: 15%;
+    width: 600px;
+    height: 550px;
+    font-size: 15px;
+    box-shadow: 5px 3px 8px rgba(0,0,0,0.5);
+}
+label{
+    display: block;
+    margin: 10px;
+}
+input{
+    height: 40px;
+    border-style: none;
+    background-color: hsla(0, 0%, 50%, 0.575);
+    color: #ffffff;
+    margin-left: 5%;
+    width: 90%;
+}
+textarea{
+    color: #ffffff;
+    background-color: hsla(0, 0%, 50%, 0.575);
+   border-style: none;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    max-width:540px;
+    min-width: 540px;
+    min-height: 160px;
+    max-height: 160px;
+}
+.formulario{
+    background-color: hsl(0, 0%, 100%);
+   
+}
+.enviar:hover {
+    background-color: #0000ff69;
+}
+.datos{
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+    box-shadow: 5px 2px 10px hsla(229, 100%, 53%, 0.507);
+    
+}
+
+ul{ 
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    margin: 30px;
+}
+li{
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+}
+
+
+@media (min-width:1900px){
+    body{
+        background-color: rgba(221, 221, 221, 0.294);
+    }
+header{
+    position: relative;
+}
+.barra{
+    position: absolute;
+    left: 90%;
+    bottom: 10px;
+  
+}
+.icon-facebook2{
+    
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+.icon-instagram{ 
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+.icon-whatsapp{ 
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+.header{
+    display: grid;
+    height: 450px;
+    align-content: center;
+    background-color: #6511ff;
+}
+#saludo{
+    display:flex;
+    margin-left: 5%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    font-size: 45px;
+    padding: 20px;
+    background-color:transparent ;
+     color: rgb(255, 255, 255);
+     position: relative;
+
+}
+.sub{
+    margin-top: 20px;
+    margin-left: 5%;
+    font-size: 30px;
+    color: #ffffff;
+}
+.conteiner{
+    display: grid;
+    align-content: center;
+    position: relative;
+    margin-top: -60px;
+    margin-left: 15%;
+    width: 600px;
+    height: 550px;
+    font-size: 15px;
+    box-shadow: 5px 3px 8px rgba(0,0,0,0.5);
+}
+label{
+    display: block;
+    margin: 10px;
+}
+input{
+    height: 40px;
+    border-style: none;
+    background-color: hsla(0, 0%, 50%, 0.575);
+    color: #ffffff;
+    margin-left: 5%;
+    width: 90%;
+}
+textarea{
+    color: #ffffff;
+    background-color: hsla(0, 0%, 50%, 0.575);
+   border-style: none;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    max-width:540px;
+    min-width: 540px;
+    min-height: 160px;
+    max-height: 160px;
+}
+.formulario{
+    background-color: hsl(0, 0%, 100%);
+   
+}
+.enviar:hover {
+    background-color: #0000ff69;
+}
+.datos{
+    text-align: start;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 400px;
+    box-shadow: 5px 2px 10px hsla(229, 100%, 53%, 0.507);
+    
+}
+ul{ 
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    margin: 30px;
+}
+li{
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+}
